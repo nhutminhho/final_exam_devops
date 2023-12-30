@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return "Welcome to Docker at CSC"
+  return "Welcome to DevOps"
 
 if __name__ == "__main__":
   app.debug=True
